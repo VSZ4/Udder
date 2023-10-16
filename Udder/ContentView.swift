@@ -17,10 +17,12 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .fontWeight(.medium)
             Text("Fresh Milk, On Demand")
-            
+                
         }
+        .foregroundColor(.mint)
         .padding()
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
