@@ -19,9 +19,16 @@ struct ContentView: View {
             Text("Fresh Milk, On Demand")
             Image("foto").resizable().aspectRatio(contentMode: .fit)
                 .frame(width: 200, height: 300)
+            
+            Image(systemName: "sun")
+                .imageScale(.large)
+                .foregroundColor(.accentColor)
+            
         }
         .foregroundColor(.mint)
         .padding()
+        
+        
     }
     
 }
@@ -31,3 +38,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
+
